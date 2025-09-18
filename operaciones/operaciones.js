@@ -56,7 +56,7 @@ function convertirTemperatura(valor, desde, hasta) {
         }
     };
 
-    return Math.round(conversiones[desde][hasta](valor) * 100) / 100;
+    return Math.round((conversiones[desde][hasta](valor)) * 100) / 100;
 }
 
 module.exports = {
@@ -66,3 +66,4 @@ module.exports = {
     convertirTiempo
 
 }
+
