@@ -1,7 +1,7 @@
 function convertirTiempo(valor, desde, hasta) {
     const tiempo = {
         segundo: 1,
-        minuhasta: 60,
+        minuto: 60,
         hora: 3600,
         dia: 86400,
         mes: 2592000,
@@ -64,4 +64,5 @@ module.exports = {
     convertirPeso,
     convertirTemperatura,
     convertirTiempo
+
 }
