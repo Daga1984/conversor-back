@@ -16,8 +16,8 @@ function convertirTiempo(valor, desde, hasta) {
 function convertirPeso(valor, desde, hasta) {
     const peso = {
         gramo: 1,
-        lb: 453.6,
-        kg: 1000
+        libra: 453.6,
+        kilogramo: 1000
     }
     const convertir = (valor * peso[desde]);
     const res = convertir / peso[hasta];
@@ -66,4 +66,5 @@ module.exports = {
     convertirTiempo
 
 }
+
 
